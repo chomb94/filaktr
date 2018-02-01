@@ -28,7 +28,7 @@ class ComicStrip
     /**
      * @ORM\Column(type="datetime", nullable=true)
      */
-    protected $Date;
+    protected $date;
     /**
      * @ORM\Column(type="boolean")
      */
@@ -74,7 +74,7 @@ class ComicStrip
      *
      * @param \DateTime $date
      *
-     * @return Project
+     * @return ComicStrip
      */
     public function setDate($date)
     {
@@ -98,7 +98,7 @@ class ComicStrip
      *
      * @param User $user
      *
-     * @return Project
+     * @return ComicStrip
      */
     public function setUser($user)
     {
